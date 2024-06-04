@@ -1,5 +1,1 @@
-argparse
-pandas
-urllib.parse
-os
-filecmp
+pandas==2.2.2
