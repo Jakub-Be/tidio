@@ -28,7 +28,7 @@ def parsing(input_folder):
 
     data.to_csv('output.tsv', sep='\t', index=False)
 
-if __name__ == "__parsing__":
+if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument('input_folder', help='indicate path to a folder with input file')
 
