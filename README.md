@@ -52,7 +52,7 @@ pip install -r requirements.txt
 
 1.Run the main script to parse the URLs and generate the output file:
 ```bash
-python Parsing.py -[path to input file]
+python Parsing.py -[path to a folder with input file]
 ```
 
 2.To verify the correctness of the solution, run the test script:
