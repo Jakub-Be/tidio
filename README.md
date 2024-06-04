@@ -39,8 +39,8 @@ cd tidio-python
 
 2.Create a virtual environment and activate it:
 ```bash
-python3 -m venv venv
-source venv/bin/activate
+python -m venv venv
+.\venv\Scripts\activate
 ```
 
 3.Install the required packages:
@@ -52,7 +52,7 @@ pip install -r requirements.txt
 
 1.Run the main script to parse the URLs and generate the output file:
 ```bash
-python Parsing.py -path to input file
+python Parsing.py -[path to input file]
 ```
 
 2.To verify the correctness of the solution, run the test script:
