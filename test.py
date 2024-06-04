@@ -1,3 +1,4 @@
+import pandas as pd
 
 processed_file = pd.read_csv('output.tsv', sep='\t')
 desired_output = pd.read_csv('task1_output.tsv', sep='\t')
